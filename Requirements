@@ -1,0 +1,31 @@
+Hardware Requirements:
+
+1. Arduino Uno / ESP32 / NodeMCU – microcontroller board  
+2. Accelerometer & Gyroscope (e.g., MPU6050) – to detect impact  
+3. GPS Module (e.g., Neo-6M) – to get location coordinates  
+4. GSM Module (e.g., SIM800L) – to send alerts via SMS  
+5. Buzzer – to give a local alert  
+6. LEDs – for visual indicators  
+7. Power Supply / Battery Pack  
+8. Wires, Breadboard, or PCB – for connections  
+9. Optional: Camera Module – for evidence/photo capture
+
+
+
+Software Requirements:
+
+1. Arduino IDE – for programming microcontroller  
+2. Embedded C / C++ – language for Arduino programming  
+3. Cloud Platform (e.g., ThingSpeak, Blynk, Firebase) – for real-time monitoring  
+4. Python (optional) – for backend logic or server communication  
+5. Mobile App (optional) – for notifications  
+6. APIs (e.g., Twilio / SMTP) – to send alerts or emails  
+
+
+
+Functional Requirements:
+
+- Detect collision using sensor data  
+- Send location and alert to emergency contact  
+- Display accident status via LEDs/buzzer  
+
